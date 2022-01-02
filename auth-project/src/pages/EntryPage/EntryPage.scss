@@ -1,0 +1,40 @@
+.first-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 1s ease;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 33px;
+    cursor: pointer;
+    &__text {
+        text-align: center;
+        margin-right: 16px;
+        font-family: 'Inter-Normal', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    &__arrow {
+        border-radius: 50%;
+        background: #1E1A3E;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.sub-title {
+    font-family: 'Inter-Normal', sans-serif;
+    max-width: 220px;
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 27px;
+}
